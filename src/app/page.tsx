@@ -1,101 +1,180 @@
-import Image from "next/image";
+import Image from "next/image"
+import Link from "next/link"
+import pak from "../../public/images/pak.jpg"
+import ind from "../../public/images/india.jpg"
+import ban from "../../public/images/bangladesh.jpg"
+import iran from "../../public/images/iran.jpg"
+import afghan from "../../public/images/afghan.jpg"
+import china from "../../public/images/china.jpg"
+import american from "../../public/images/imerica.webp"
+import nepal from "../../public/images/nepal.jpg"
+import brazil from "../../public/images/brazil.jpg"
+import oman from "../../public/images/oman.jpg"
+import qatar from "../../public/images/qatar.jpg"
+import russia from "../../public/images/russia.jpg"
+import egypt from "../../public/images/egypt.jpg"
+import fiji from "../../public/images/fiji.jpg"
+import germany from "../../public/images/germany.jpg"
+import togo from "../../public/images/togo.jpg"
+import uganda from "../../public/images/uganda.jpg"
+import korea from "../../public/images/korea.jpg"
+import laos from "../../public/images/laos.jpg"
+import libya from "../../public/images/libya.jpg"
+import zambia from "../../public/images/zambia.jpg"
+import kenya from "../../public/images/kenya.jpg"
+import yemen from "../../public/images/yemen.jpg"
+import iraq from "../../public/images/iraq.jpg"
+import jamacia from "../../public/images/jamacia.jpg"
+import italy from "../../public/images/italy.jpg"
+import iceland from "../../public/images/iceland.jpg"
+import greece from "../../public/images/greece.jpg"
+
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  return(
+    <div>
+    <div className="grid grid-cols-7 gap-6 mt-10 p-10 whitespace-nowrap">
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Pakistan</h2>
+        <Image src={pak} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href="/pakistan"><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">India</h2>
+        <Image src={ind} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/india"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Bangladesh</h2>
+        <Image src={ban} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/bangladesh"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Iran</h2>
+        <Image src={iran} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/iran"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Afghanistan</h2>
+        <Image src={afghan} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/afghan"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">China</h2>
+        <Image src={china} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/china"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">America</h2>
+        <Image src={american} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/america"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Nepal</h2>
+        <Image src={nepal} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/nepal"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Brazil</h2>
+        <Image src={brazil} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/brazil"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Oman</h2>
+        <Image src={oman} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/oman"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Qatar</h2>
+        <Image src={qatar} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/qatar"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Russia</h2>
+        <Image src={russia} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/russia"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Egypt</h2>
+        <Image src={egypt} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/egypt"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Fiji</h2>
+        <Image src={fiji} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/fiji"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Germany</h2>
+        <Image src={germany} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/germany"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Togo</h2>
+        <Image src={togo} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/togo"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Uganda</h2>
+        <Image src={uganda} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/uganda"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Korea</h2>
+        <Image src={korea} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/korea"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Laos</h2>
+        <Image src={laos} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/laos"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Zambia</h2>
+        <Image src={zambia} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/zambia"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Libya</h2>
+        <Image src={libya} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/libya"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Kenya</h2>
+        <Image src={kenya} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/kenya"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Yemen</h2>
+        <Image src={yemen} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/yemen"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Iraq</h2>
+        <Image src={iraq} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/iraq"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Jamacia</h2>
+        <Image src={jamacia} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/jamaica"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Italy</h2>
+        <Image src={italy} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/italy"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Iceland</h2>
+        <Image src={iceland} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/iceland"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
+      <div className="w-44 h-44 bg-slate-300 rounded ">
+        <h2 className="text-center font-semibold p-1">Greece</h2>
+        <Image src={greece} alt="pak" width={100} height={100} className="w-screen h-28 rounded"/>
+        <Link href={"/greece"}><button className="text-center mt-1 font-semibold w-40">Read More</button></Link>
+      </div>
     </div>
-  );
+  </div>
+  )
 }
