@@ -1,8 +1,8 @@
 const Uganda = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Ugenda</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Ugenda</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Uganda, often called the Pearl of Africa, is a landlocked country in East Africa bordered by Kenya, South Sudan, the Democratic Republic of the Congo, Rwanda, and Tanzania. The country is renowned for its diverse landscapes, ranging from the lush forests and snow-capped Rwenzori Mountains to the savannas and expansive Lake Victoria, Africa’s largest lake, which Uganda shares with Kenya and Tanzania. Kampala, the capital city, is a bustling metropolis and the heart of Uganda economic and cultural activities.</p>
         <p>With a population of over 47 million, Uganda is ethnically diverse, comprising groups like the Baganda, Banyankole, Basoga, and many others. English and Swahili are the official languages, with numerous local languages widely spoken. Uganda is a presidential republic, with President Yoweri Museveni as a longstanding leader since 1986. The country’s political landscape is characterized by efforts to maintain stability and address development challenges.</p>
         <p>Uganda’s economy is largely agrarian, with agriculture employing a significant portion of the population. Major exports include coffee, tea, fish, and tobacco, with coffee being one of Uganda most valuable commodities. In recent years, Uganda has focused on diversifying its economy through sectors like tourism, manufacturing, and oil. Tourism is a growing industry, with attractions such as Bwindi Impenetrable National Park, home to endangered mountain gorillas, and Murchison Falls National Park drawing visitors from around the world.</p>

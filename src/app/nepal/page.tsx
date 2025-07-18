@@ -1,8 +1,8 @@
 const Nepal = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Nepal</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Nepal</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Nepal is a small, landlocked country in South Asia, bordered by China to the north and India to the south, east, and west. Known for its stunning mountainous landscapes, it is home to eight of the world’s ten highest peaks, including Mount Everest, the world’s tallest mountain. The capital, Kathmandu, is a cultural and historical center, known for its ancient temples and vibrant arts.</p>
         <p>With a population of around 30 million, Nepal is ethnically diverse, comprising groups like the Newars, Sherpas, and Tharus. Nepali is the official language, and Hinduism is the dominant religion, with Buddhism also widely practiced, especially in regions close to Tibet. Nepal is a secular federal republic, and it has a unique monarchy history, transitioning to a democratic system in 2008.</p>
         <p>Nepal’s economy primarily relies on agriculture, tourism, and remittances from Nepalese working abroad. The tourism industry, particularly trekking and mountaineering, is a major source of income, attracting adventurers to the Himalayas. While Nepal has significant natural beauty and cultural heritage, it faces economic challenges, including limited infrastructure and vulnerability to natural disasters.</p>

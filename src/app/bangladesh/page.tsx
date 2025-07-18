@@ -1,8 +1,8 @@
 const Bangladesh = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Bangladesh</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Bangladesh</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Bangladesh is a South Asian country bordered by India to the west, north, and east, Myanmar to the southeast, and the Bay of Bengal to the south. Its capital is Dhaka, a vibrant city known for its history, culture, and rapid urban growth. Bangladesh has a population of around 170 million, making it one of the most densely populated countries in the world.</p>
         <p>The official language is Bengali (Bangla), and Islam is the predominant religion, practiced by over 90% of the population. Bangladesh is a parliamentary democracy, with a government led by a prime minister and a ceremonial president.</p>
         <p>Economically, Bangladesh has made remarkable progress over recent decades, transitioning from a primarily agricultural economy to one where textiles and garments are significant contributors. The ready-made garment (RMG) industry is a key driver of economic growth and one of the largest in the world, providing employment to millions, especially women. The country has also seen growth in remittances and the service sector, although it still faces challenges like poverty and infrastructure needs.</p>

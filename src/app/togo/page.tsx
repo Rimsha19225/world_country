@@ -3,8 +3,8 @@ import React from 'react'
 const Togo = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Togo</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Togo</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Togo is a small, West African country located on the Gulf of Guinea, bordered by Ghana to the west, Benin to the east, and Burkina Faso to the north. The capital, Lomé, is a vibrant port city and Togo’s economic and cultural center. Togo has a population of around 8 million people, comprising a diverse range of ethnic groups, including the Ewe, Kabye, and Tem. French is the official language, reflecting its colonial past under French rule, but numerous local languages are widely spoken.</p>
         <p>Togo operates as a presidential republic, with a history of political transitions and efforts to build democratic institutions. While the country has faced political challenges, it has made strides in recent years toward stability and development.</p>
         <p>The economy of Togo is largely based on agriculture, which employs a significant portion of the population. Key agricultural exports include cotton, coffee, and cocoa, with subsistence farming also prevalent. Togo is rich in natural resources like phosphate, a crucial export product, and it has sought to diversify its economy by improving the mining and services sectors, including banking and tourism.</p>

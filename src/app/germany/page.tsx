@@ -3,8 +3,8 @@ import React from 'react'
 const Germany = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Germany</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Germany</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Germany, located in Central Europe, is a highly developed nation known for its rich history, influential culture, and robust economy. It shares borders with nine countries, including France, Austria, and Poland, and has coastlines along the North and Baltic Seas. The capital, Berlin, is a hub for art, politics, and history, while cities like Munich, Frankfurt, and Hamburg are major economic and cultural centers. Germany’s population is around 83 million, making it the most populous country in the European Union.</p>
         <p>Germany is a federal parliamentary republic, with a chancellor as the head of government and a president as the ceremonial head of state. It is recognized for its strong democratic principles, advanced social welfare system, and emphasis on environmental sustainability. German is the official language, and the country has a rich religious heritage, with a majority identifying as Christian, though there is a significant secular population as well.</p>
         <p>Economically, Germany is the largest economy in Europe and the fourth-largest globally, driven by industries such as automotive, engineering, electronics, chemicals, and renewable energy. Known as a powerhouse in manufacturing and innovation, Germany is home to companies like Volkswagen, Siemens, and BMW, and has a highly skilled labor force. Its focus on environmental sustainability has positioned Germany as a leader in renewable energy initiatives, with significant investments in wind, solar, and hydroelectric power.</p>

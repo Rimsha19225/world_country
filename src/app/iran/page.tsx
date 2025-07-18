@@ -1,8 +1,8 @@
 const Iran = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Iran</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Iran</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Iran, officially known as the Islamic Republic of Iran, is a country in Western Asia, bordered by Pakistan and Afghanistan to the east, Turkmenistan to the northeast, Turkey and Iraq to the west, and the Persian Gulf and Caspian Sea to the south and north, respectively. Tehran, its capital and largest city, is the political, cultural, and economic center of Iran.</p>
         <p>With a population of around 87 million, Iran is home to diverse ethnic groups, including Persians, Azeris, Kurds, and Lurs. Persian (Farsi) is the official language, and Islam, particularly Shia Islam, is the predominant religion. Iran is a theocratic republic with a unique political structure, where the Supreme Leader holds significant power, alongside elected officials like the president and parliament.</p>
         <p>Iran has a diverse economy that includes oil, natural gas, agriculture, and a growing tech and service sector. The country possesses some of the world’s largest oil and gas reserves, making energy exports a critical part of its economy, although international sanctions have impacted its economic growth.</p>

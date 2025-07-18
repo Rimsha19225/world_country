@@ -3,8 +3,8 @@ import Link from "next/link"
 const Korea = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Korea</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Korea</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Korea refers to a region in East Asia, historically unified as the Korean Peninsula, which is now divided into two countries: North Korea (officially the Democratic People Republic of Korea, or DPRK) and South Korea (officially the Republic of Korea, or ROK). The peninsula is bordered by China to the northwest, Russia to the northeast, and Japan to the east, with coastlines along the Yellow Sea and the Sea of Japan (East Sea).</p>
         <Link href={"/korea/north"}><button className="text-center mt-1 font-semibold w-40 text-blue-500">👉Click North Korea</button></Link>
         <br />

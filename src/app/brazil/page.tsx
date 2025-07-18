@@ -1,8 +1,8 @@
 const Brazil = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Brazil</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Brazil</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Brazil, the largest country in South America, is known for its diverse culture, natural beauty, and vast rainforest. It borders every South American country except Chile and Ecuador and has a lengthy Atlantic coastline. The capital is Brasília, but other major cities include São Paulo, Rio de Janeiro, and Salvador. With a population of over 214 million, Brazil is the sixth most populous country globally.</p>
         <p>Brazil operates as a federal republic with a presidential system. Portuguese is the official language, making Brazil unique in Latin America, where most countries are Spanish-speaking. The population is ethnically diverse, with influences from Indigenous, African, and European cultures. The country is predominantly Christian, with a significant Catholic population, but it also has a growing Protestant community and Indigenous spiritual traditions.</p>
         <p>Brazil has the largest economy in Latin America, driven by agriculture, mining, energy, and services. It is one of the world’s largest exporters of soybeans, coffee, beef, and sugar. While Brazil has abundant natural resources and a strong industrial sector, it faces economic challenges, including poverty, inequality, and political instability.</p>

@@ -3,8 +3,8 @@ import React from 'react'
 const Yemen = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">Yemen</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">Yemen</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>Yemen is a country located in the Arabian Peninsula in the Middle East, bordered by Saudi Arabia to the north, Oman to the east, and the Red Sea to the west. To the south, it is bordered by the Gulf of Aden and the Arabian Sea. The capital city of Yemen is Sanaa, though the government operates from Aden in the south due to ongoing conflicts. Yemen has a population of approximately 32 million people.</p>
         <p>Yemen has a rich historical and cultural heritage, with its civilization dating back thousands of years. The country was home to ancient kingdoms, such as the Sabaean and Himyarite civilizations, known for their advances in trade, architecture, and agriculture. Yemen was also a key player in the ancient spice trade due to its strategic location between Asia and Africa. The old city of Sanaa is a UNESCO World Heritage site, known for its well-preserved medieval architecture.</p>
         <p>Modern Yemen has faced significant challenges. It was unified in 1990, after the merger of the People Democratic Republic of Yemen (South Yemen) and the Yemen Arab Republic (North Yemen). However, political instability has plagued the country, and since 2015, Yemen has been in the midst of a devastating civil war, involving multiple factions, including the internationally recognized government, Houthi rebels, and other local groups. This conflict has caused a humanitarian crisis, leading to widespread poverty, displacement, and severe shortages of food, medicine, and basic services.</p>

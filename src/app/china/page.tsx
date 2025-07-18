@@ -1,8 +1,8 @@
 const China = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl mt-12">China</h1>
-      <div className="w-[90%] p-10 ml-20 font-medium">
+      <h1 className="text-center text-5xl mt-16">China</h1>
+      <div className="w-[100%] max-w-[95%] md:max-w-[60%] m-auto py-10 text-justify font-medium">
         <p>China, officially the Peoples Republic of China (PRC), is the most populous country globally, with over 1.4 billion people. Located in East Asia, it shares borders with 14 countries, including India, Russia, and Vietnam, and has a vast coastline along the East China Sea. The capital, Beijing, is known for its rich history and political significance, while Shanghai is China financial hub, and cities like Guangzhou and Shenzhen lead in industry and technology.</p>
         <p>China’s government is a single-party socialist state led by the Communist Party of China (CPC), with President Xi Jinping as a key leader. The country has undergone rapid transformation from an agricultural economy to a global economic powerhouse, driven by sectors such as manufacturing, technology, finance, and exports. China is the world second-largest economy and a leading trade partner for many nations, although it faces challenges such as income inequality and environmental issues.</p>
         <p>Geographically, China is incredibly diverse, with landscapes ranging from the towering Himalayas in the southwest to vast deserts like the Gobi, fertile plains, rivers like the Yangtze and Yellow, and tropical regions in the south. Its large landmass and varied climate support a wealth of biodiversity and natural resources.</p>
